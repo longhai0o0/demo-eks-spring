@@ -9,7 +9,7 @@ pipeline {
     DOCKER_REGISTRY_ORG = 'nhutvl504'
   }
   stages {
-    stage('CI Build and push snapshot') {
+    stage('CI Build and push snapshot kkkk') {
       when {
         branch 'PR-*'
       }
